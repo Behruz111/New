@@ -6,7 +6,7 @@ import platform
 plt = platform.system()
 if plt == 'Linux': pathlib.WindowsPath = pathlib.PosixPath
 
-st.title("Transpoprt")
+st.title("Rasim klassifikatsiyasi")
 
 #rasm yuklash
 file = st.file_uploader("Rasm yuklash", type=['jpeg','png','gif','svg','jpg'])
